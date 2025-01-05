@@ -34,7 +34,7 @@ img {
 
 .container {
   /* max-width: 1200px; */
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: 0 auto;
   padding: 1rem 2rem;
   /* display: flex;
@@ -806,6 +806,25 @@ textarea:focus {
   .container-news input {
     width: 90%; /* Make input more responsive */
     max-width: 400px;
+  }
+
+  .btn {
+    padding: 0.6rem 1.6rem;
+  }
+  .hero {
+    padding: 5rem 0 3rem;
+  }
+
+  .container {
+    max-width: 1900px;
+    padding: 1rem 2rem;
+  }
+
+  .container .hero img {
+    max-width: 100%;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    margin: auto;
   }
 }
 @media (max-width: 768px) {
