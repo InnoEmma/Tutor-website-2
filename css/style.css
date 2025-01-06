@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: Trebuchet MS;
+  font-family: "Roboto";
   line-height: 1.6;
   scroll-behavior: smooth;
   scroll-padding-top: 40px;
@@ -249,7 +249,7 @@ section {
   margin: 0 auto;
   max-width: 1000px;
   font-size: 1.6rem;
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 4rem;
 }
 
@@ -352,10 +352,6 @@ section {
   color: white;
   /* margin: 1rem 0; */
 }
-
-/* .point { */
-/* line-height: 3; */
-/* } */
 
 .summary-underscore-1 {
   border-bottom: 1px solid var(--light-color);
@@ -535,11 +531,6 @@ section {
   justify-content: center;
   padding: 2rem;
   flex-wrap: wrap;
-}
-
-.stat-img img {
-  /* width: 900px; */
-  /* max-width: 500px; */
 }
 
 .stat-content h2 {
